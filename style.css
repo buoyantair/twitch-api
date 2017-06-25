@@ -1,0 +1,68 @@
+body,html{
+  background: #535D5F;
+  margin:0; padding:0; box-sizing: border-box;
+}
+
+.header{
+  background: #FFF;
+  min-height: 70px;
+  color: #6441A4;
+  width: 100%;
+  padding: 1em;
+}
+
+.twitch-logo{
+  background: url('img/TwitchLogo.svg') no-repeat;
+  min-height: 60px;
+  width: 150px;
+}
+
+.holder{
+  width: 90%;
+  margin: 5em 5em;
+  float:left;
+  min-height: 700px;
+}
+
+.can{
+  float:left;
+  min-height: 250px;
+  width: 300px;
+  margin: 2.5%;
+  overflow: hidden;
+  box-shadow: 0px 25px 50px 10px rgba(0,0,0,0.2);
+}
+.can:hover{cursor: pointer;}
+
+.img{
+  min-height: 250px;
+  width: 100%;
+  color: red;
+  background-size: cover;
+}
+
+.status{
+  min-height: 5px;
+  width: 100%;
+}
+
+.online{background: #2DFF3B;}
+.offline{background: red;}
+
+.name{
+  min-height: 45px;
+  width: 100%;
+  background: #FFF;
+  font-size: 20px;
+  padding: 1em;
+}
+
+.game{
+  color: #386B4D;
+}
+
+.deleted{
+  font-size: 30px;
+  color: #FFF;
+  padding: 1em;
+}
